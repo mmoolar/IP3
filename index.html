@@ -143,10 +143,12 @@
            <div class="contact-info">
                 <h1 class="heading">Contact Us</h1>
                 <form class="contact-form">
-                    <input type="text" name="name" id="name" autocomplete="off" placeholder="Name">
-                    <input type="text" name="email" id="email" autocomplete="off" placeholder="Email">
-                    <textarea name="msg" id="msg" placeholder="Your message here..." autocomplete="off"></textarea>
-                    <button type="submit" class="form-submit-btn">contact</button>
+                    <form action="/action_page.php" method="post">
+                        <input type="text" name="name" id="name" autocomplete="off" placeholder="Name" required>
+                        <input type="text" name="email" id="email" autocomplete="off" placeholder="Email" required>
+                        <textarea name="msg" id="msg" placeholder="Your message here..." autocomplete="off" required></textarea>
+                        <button type="submit" class="form-submit-btn">contact</button>
+                    </form>
                 </form>
             </div>
         </div>
