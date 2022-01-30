@@ -27,13 +27,18 @@
 </style>
     <script>
         $(document).ready(function(){
-          $("w3-padding-16").click(function(){
-            $(this).hide();
-          });
+            $("#hide").click(function(){
+                $("p").hide();
         });
-        </script>
+            $('#show').click(function() {
+                $('.project-overla').toggle("slide");
+                });
+        });
+    
+    </script>
 </head>
 <body>
+
     <!-- home section -->
         <section class="home active">
             <div class="home-bg-image">
@@ -101,12 +106,12 @@
 
 <div class="project-container">
     <div class="project-gallery">
-        <div class="project-container">
+        <div class="project-container" id="show">
             <img src="assets/services_icons/dev_icon.png" alt="development">
-                <div class="project-overlay">
+                
                     <p class="project-sub-heading"> Development</p>
-                    <div class="project-text">All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                    <div class="project-overla" style="display: none;" id="hide"><p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
                 </div>
         </div>

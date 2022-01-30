@@ -133,21 +133,12 @@
     width: 100%;
 }
   
-.project-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:auto;
-    width:auto;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ffffff;
+.project-overla {
+  display: block;
 }
   
-.project-container:hover .project-overlay {
-    opacity: 1;
+.project-container:hove .project-overlay {
+    opacity: 0;
 }
   
 .project-text {
@@ -167,7 +158,8 @@
     float:left;
     width: 30%;
   margin-left: auto;
-     
+   
+    
    
 }
   
