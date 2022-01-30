@@ -19,9 +19,8 @@
 
  .logo{
      display:block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
+     margin: auto;
+     width: 10%;
  }
 
  .home{
@@ -198,59 +197,61 @@
 
 .container {
     position: relative;
-    width: 50%;
-  }
+    width: 100%;
+}
   
-  .image {
-    
-  }
+
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height:fit-content;
-    width: 50%;
+    height:100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #ffffff;
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 0.6;
-  }
+}
   
-  .text {
-    color: rgb(2, 2, 2);
+.text {
+    color: rgb(8, 8, 8);
     font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
-  div.gallery {
+}
+
+
+  /*Gallery*/
+.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
+    float:left;
+    width: 22%;
+}
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
+.gallery:hover {
+    border: 1px solid rgb(255, 251, 251);
+}
   
-  div.gallery img {
+.gallery img {
     width: 100%;
     height: auto;
-  }
+}
   
-  div.desc {
-    padding: 15px;
+.desc {
+    padding: 10px;
     text-align: center;
-  }
+}
+
 
 /* Contact Us-section */     
 .contact-section{
