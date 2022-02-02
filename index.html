@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!--My Script File-->
-    <!--<script src="app.js"></script>-->
+    <script src="app.js"></script>
 <style>
     .home-bg-image {
     background-image: url('assets/backgrounds/h_img.jpg'); 
@@ -31,8 +31,9 @@
                 $("p").hide();
         });
             $('#show').click(function() {
-                $('.project-overla').toggle("slide");
+                $('.project-overla1').toggle("slide");
                 });
+                
         });
     
     </script>
@@ -92,25 +93,25 @@
    <!-- Grid for What we do -->
 <div class="project-container">
     <div class="project-gallery">
-        <div class="project-container">
+        <div class="project-container" id="show">
             <img src="assets/services_icons/design_icon.png" alt="design">
                 <div class="project-overlay">
                     <p class="project-sub-heading"> Design</p>
-                    <div class="project-text">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</div>
+                    <div class="project-overla1" style="display: none;"><p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                     </div>
                 </div>
         </div>
     </div>
 </div>    
-
+</div>
 <div class="project-container">
     <div class="project-gallery">
         <div class="project-container" id="show">
-            <img src="assets/services_icons/dev_icon.png" alt="development">
+            <img src="assets/services_icons/dev_icon.png" alt="development" style="float:init;"">
                 
                     <p class="project-sub-heading"> Development</p>
-                    <div class="project-overla" style="display: none;" id="hide"><p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    <div class="project-overla1" style="display: none;"><p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                         They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
                 </div>

@@ -11,8 +11,6 @@
     font-family:sans-serif;
     color: rgb(248, 245, 245);
     text-transform: uppercase;
-   
-    
 }
 
  /* Home-section */
@@ -46,9 +44,6 @@
     transform: translate(-50%, -50%);
     color: white;
     }
-
-
-
 /* about-section */
 .about{
     text-align: center;
@@ -133,12 +128,8 @@
     width: 100%;
 }
   
-.project-overla {
+.project-overla1 {
   display: block;
-}
-  
-.project-container:hove .project-overlay {
-    opacity: 0;
 }
   
 .project-text {
@@ -150,23 +141,13 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-
-
-  /*Gallery*/
 .project-gallery {
     margin: 5px;
     float:left;
     width: 30%;
   margin-left: auto;
    
-    
-   
 }
-  
-.project-gallery:hover {
-    border: 1px solid rgb(255, 251, 251);
-}
-  
 .project-gallery img {
     width: auto;
     height: auto;
